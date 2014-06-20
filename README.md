@@ -14,7 +14,7 @@ Firstly you need to download the kickstart zip and unpack it to a location of yo
 
 ### Getting Started
 
-Once you installed the project, run the following commands:
+Assuming you have previously installed both node.js, grunt and bower, run the following commands:
 
 	npm install
 	bower install
