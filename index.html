@@ -7,13 +7,9 @@
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="/favicon.ico">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
-        <!-- endbower -->
-        <!-- endbuild -->
+
         <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="css/build/minified/screen.css">
         <!-- endbuild -->
     </head>
     <body>
@@ -22,41 +18,154 @@
         <![endif]-->
 
 
-        <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <h3 class="text-muted">kickstart</h3>
-            </div>
+<div class="main-container">
+  <div class="main wrapper clearfix">
 
-            <div class="jumbotron">
-                <h1>'Allo, 'Allo!</h1>
-                <p class="lead">Always a pleasure scaffolding your apps.</p>
-                <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
-            </div>
+  <article>
+    <hgroup>
+      <h1>header h1</h1>
+      <h2>header h2</h2>
+      <h3>header h3</h3>
+      <h4>header h4</h4>
+      <h5>header h5</h5>
+      <h6>header h6</h6>
+    </hgroup>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
+<ol>
+        <li>Lorem <a href="#">ipsum dolor sit amet</a>, consectetuer adipiscing elit.</li>
+        <li>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+            </ul>
+        </li>
+        <li>Vestibulum auctor dapibus neque.</li>
+    </ol>
 
-            <div class="row marketing">
-                <div class="col-lg-6">
-                    <h4>HTML5 Boilerplate</h4>
-                    <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+    <hr />
 
+    <ul class="bare-list  mb">
+        <li>Foo</li>
+        <li>Bar</li>
+        <li>Baz</li>
+    </ul>
 
+    <ul class="block-list  mb">
+        <li class="block-list__item">Foo</li>
+        <li class="block-list__item">Bar</li>
+        <li class="block-list__item">Baz</li>
+    </ul>
 
-                    <h4>Bootstrap</h4>
-                    <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
+    <ul class="ui-list  mb">
+        <li class="ui-list__item">Foo</li>
+        <li class="ui-list__item">Bar</li>
+        <li class="ui-list__item">Baz</li>
+    </ul>
 
+    <p>
+        <a href="#" class="btn">Buttons</a>
+        <a href="#" class="btn  btn--large">Large buttons</a>
+        <a href="#" class="btn  btn--secondary">Custom buttons</a>
+    </p>
 
-                </div>
-            </div>
+    <pre><code>.foo {
+    color: red;
+}</code></pre>
 
-            <div class="footer">
-                <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
-            </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Job Title</th>
+                <th>Location</th>
+            </tr>
+        </thead>
 
+        <tbody>
+
+            <tr>
+                <td>Jimmy</td>
+                <td>23</td>
+                <td>Web Developer and Front-end Architect</td>
+                <td>Cru</td>
+            </tr>
+
+            <tr>
+                <td>Terry</td>
+                <td>100</td>
+                <td>Breaker of Hearts</td>
+                <td>Florida</td>
+            </tr>
+
+            <tr>
+                <td>Jane</td>
+                <td>103</td>
+                <td>Lumberjack</td>
+                <td>Oxford</td>
+            </tr>
+
+            <tr>
+                <td>Bill</td>
+                <td>78</td>
+                <td>Butcher</td>
+                <td>San Francisco</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <ul class="tabs">
+        <li class="tabs__item">
+            <a href="#" class="tabs__link">Foo</a>
+        </li>
+        <li class="tabs__item">
+            <a href="#" class="tabs__link">Bar</a>
+        </li>
+        <li class="tabs__item">
+            <a href="#" class="tabs__link">Baz</a>
+        </li>
+    </ul>
+
+    <div class="media  media--large  media--rev">
+        <div class="media__img">
+            <img src="http://placekitten.com/300/200" alt="" style="background: red; width: 300px; height: 200px;" />
         </div>
+        <div class="media__body">
+            <p class="lede">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+        </div>
+    </div>
+
+    <div class="flag  flag--large  flag--rev">
+        <div class="flag__img">
+            <img src="http://placekitten.com/300/200" alt="" style="background: red; width: 300px; height: 200px;" />
+        </div>
+        <div class="flag__body">
+            <p class="lede">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+        </div>
+    </div>
+
+    <div class="layout">
+
+        <div class="layout__item  1/2">
+            <p>Foo</p>
+        </div><!--
+
+     --><div class="layout__item  1/2">
+            <p>Bar</p>
+            <p>Bar</p>
+        </div>
+
+    </div>
+
+    <div class="box">
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+    </div>
+        </article>
+
+    </div> <!-- #main -->
+</div> <!-- #main-container -->
 
 
         <!-- build:js scripts/vendor.js -->
@@ -75,22 +184,7 @@
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
 
-        <!-- build:js scripts/plugins.js -->
-        <script src="../bower_components/bootstrap/js/affix.js"></script>
-        <script src="../bower_components/bootstrap/js/alert.js"></script>
-        <script src="../bower_components/bootstrap/js/dropdown.js"></script>
-        <script src="../bower_components/bootstrap/js/tooltip.js"></script>
-        <script src="../bower_components/bootstrap/js/modal.js"></script>
-        <script src="../bower_components/bootstrap/js/transition.js"></script>
-        <script src="../bower_components/bootstrap/js/button.js"></script>
-        <script src="../bower_components/bootstrap/js/popover.js"></script>
-        <script src="../bower_components/bootstrap/js/carousel.js"></script>
-        <script src="../bower_components/bootstrap/js/scrollspy.js"></script>
-        <script src="../bower_components/bootstrap/js/collapse.js"></script>
-        <script src="../bower_components/bootstrap/js/tab.js"></script>
-        <!-- endbuild -->
-
-        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <!-- scripts/main.js -->
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>

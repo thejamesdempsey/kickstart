@@ -1,0 +1,14 @@
+/*------------------------------------*\
+    #BOX-SIZING
+\*------------------------------------*/
+
+/**
+ * Set the global `box-sizing` state to `border-box`.
+ */
+ * {
+     &,
+     &:before,
+     &:after {
+				box-sizing: border-box;
+     }
+ }

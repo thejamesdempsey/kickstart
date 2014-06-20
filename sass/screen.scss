@@ -3,9 +3,10 @@
 // These imports don't generate CSS, but make defined variables, functions,
 // and mixins available for further usage
 
-//@import 'base/config_global';
-//@import 'base/config_site';
-//@import 'base/state';
+@import 'settings';
+@import 'tools/mixins/all';
+@import 'tools/functions';
+@import "tools/state";
 
 // Normalize and document imports ---------------------------------------------
 
@@ -13,13 +14,16 @@
 //@import 'module/doc';
 
 // Module imports -------------------------------------------------------------
+@import "generic/restart";
+@import "generic/box-sizing";
+@import "generic/shared";
+@import "generic/clearfix";
 
-//@import 'module/container';
-//@import 'module/font';
-//@import 'module/text';
-//@import 'module/reporting';
-//@import 'module/form';
-//@import 'module/button';
+@import "base/page";
+@import "base/headings";
+@import "base/paragraphs";
+@import "base/lists";
+@import "base/images";
 
 // Vendor imports -------------------------------------------------------------
 
@@ -36,7 +40,3 @@
 // Inline to avoid the request
 
 //@import 'module/print';
-
-textarea { 
-	box-sizing: border-box;         /* Opera/IE 8+ */
-}

@@ -3,14 +3,14 @@ module.exports = {
     livereload: true,
   },
   scripts: {
-    files: ['js/*.js'],
+    files: ['js/*.js', 'js/**/*.js'],
     tasks: ['jshint', 'concat', 'uglify'],
     options: {
       spawn: false,
     }
   },
   css: {
-    files: ['css/*.scss'],
+    files: ['sass/**/*.scss', 'sass/*.scss'],
     tasks: ['sass', 'autoprefixer', 'cssmin'],
     options: {
       spawn: false,
@@ -27,7 +27,7 @@ module.exports = {
     files: ['./**/*.html'],
     tasks: [],
     options: {
-      spawn: false
+      spawn: false,
     }
   }
 }

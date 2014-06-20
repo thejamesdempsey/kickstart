@@ -1,0 +1,192 @@
+/*------------------------------------*\
+    #SETTINGS
+\*------------------------------------*/
+
+ 
+//------------------------------------\\
+    // BASE SIZES
+//------------------------------------\\
+$base-font-size :             18px;
+$base-line-height:            24px;
+$base-spacing-unit:           $base-line-height;
+
+
+
+
+
+//------------------------------------\\
+    // FUNCTIONS
+//------------------------------------\\
+@import "tools/functions";
+
+
+
+
+
+ 
+//------------------------------------\\
+    // COLOURS
+//------------------------------------\\
+$base-background-color:       #f9f9f9;
+$base-text-color:             #333;
+
+
+
+
+ 
+//------------------------------------\\
+    // TYPOGRAPHY
+//------------------------------------\\
+
+// Headings.
+$heading-size-1:              44px !default;
+$heading-size-2:              36px !default;
+$heading-size-3:              28px !default;
+$heading-size-4:              24px !default;
+$heading-size-5:              20px !default;
+$heading-size-6:              18px !default;
+
+
+
+
+//------------------------------------\\
+    // OBJECTS
+//------------------------------------\\
+
+// Block List Object.
+$block-list-padding:          $base-spacing-unit !default;
+$block-list-padding--small:   half($block-list-padding) !default;
+$block-list-padding--large:   double($block-list-padding) !default;
+
+$enable-block-list--small:    false !default;
+$enable-block-list--large:    false !default;
+
+
+
+
+
+// Box Object.
+$box-padding:                 $base-spacing-unit !default;
+$box-padding--small:          half($box-padding) !default;
+$box-padding--large:          double($box-padding) !default;
+
+$enable-box--small:           false !default;
+$enable-box--large:           false !default;
+
+
+
+
+
+// Buttons Object.
+$btn-padding:                 half($base-spacing-unit);
+$btn-padding--small:          half($btn-padding) !default;
+$btn-padding--large:          double($btn-padding) !default;
+$btn-background:              #4a8ec2 !default;
+$btn-color:                   #fff !default;
+$btn-border-width:            1px !default;
+$btn-border-style:            solid !default;
+$btn-border-color:            $btn-background !default;
+$btn-radius:                  0 !default;
+
+$enable-btn--small:           false !default;
+$enable-btn--large:           false !default;
+$enable-btn--full:            false !default;
+$enable-btn--pill:            false !default;
+
+
+
+
+
+// Flag Object.
+$flag-gutter:                 $base-spacing-unit !default;
+$flag-gutter--small:          half($flag-gutter) !default;
+$flag-gutter--large:          double($flag-gutter) !default;
+
+$enable-flag--small:          false !default;
+$enable-flag--large:          false !default;
+$enable-flag--rev:            false !default;
+$enable-flag--flush:          false !default;
+$enable-flag--top:            false !default;
+$enable-flag--bottom:         false !default;
+$enable-flag--responsive:     false !default;
+$flag-collapse-at:            720px !default;
+
+
+
+
+
+// Layout Object.
+$layout-gutter:               $base-spacing-unit !default;
+$layout-gutter--small:        half($layout-gutter) !default;
+$layout-gutter--large:        double($layout-gutter) !default;
+
+$enable-layout--small:        false !default;
+$enable-layout--large:        false !default;
+$enable-layout--flush:        false !default;
+$enable-layout--rev:          false !default;
+$enable-layout--middle:       false !default;
+$enable-layout--bottom:       false !default;
+$enable-layout--right:        false !default;
+$enable-layout--center:       false !default;
+
+
+
+
+
+// Media Object.
+$media-gutter:                $base-spacing-unit !default;
+$media-gutter--small:         half($media-gutter) !default;
+$media-gutter--large:         double($media-gutter) !default;
+
+$enable-media--small:         false !default;
+$enable-media--large:         false !default;
+$enable-media--rev:           false !default;
+$enable-media--flush:         false !default;
+$enable-media--responsive:    false !default;
+$media-collapse-at:           720px !default;
+
+
+
+
+
+// Tables Object.
+$table-padding--compact:      quarter($base-spacing-unit) !default;
+$table-padding--cosy:         half($base-spacing-unit) !default;
+$table-padding--comfy:        $base-spacing-unit !default;
+
+$table-border-width:          1px !default;
+$table-border-style:          solid !default;
+$table-border-color:          #ccc !default;
+
+$enable-table--fixed:         false !default;
+$enable-table--compact:       false !default;
+$enable-table--cosy:          false !default;
+$enable-table--comfy:         false !default;
+$enable-table--cells:         false !default;
+$enable-table--rows:          false !default;
+$enable-table--columns:       false !default;
+
+
+
+
+
+// UI List Object.
+$ui-list-padding:             $base-spacing-unit !default;
+$ui-list-padding--small:      half($ui-list-padding) !default;
+$ui-list-padding--large:      double($ui-list-padding) !default;
+
+$ui-list-border-width:        1px !default;
+$ui-list-border-style:        solid !default;
+$ui-list-border-color:        #ccc !default;
+
+$enable-ui-list--small:       false !default;
+$enable-ui-list--large:       false !default;
+
+
+
+
+//------------------------------------\\
+    // COMPONENTS
+//------------------------------------\\
+
+// Variables go here. 

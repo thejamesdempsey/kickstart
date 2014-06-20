@@ -1,0 +1,56 @@
+/*------------------------------------*\
+    #RESET
+\*------------------------------------*/
+
+/**
+ * Give a help cursor to elements that give extra info on `:hover`.
+ */
+abbr[title],
+dfn[title] {
+    cursor: help;
+}
+
+
+
+
+
+/**
+ * Remove underlines from potentially troublesome elements.
+ */
+u,
+ins {
+    text-decoration: none;
+}
+
+
+
+
+
+/**
+ * Apply faux underlines to inserted text via `border-bottom`.
+ */
+ins {
+    border-bottom: 1px solid;
+}
+
+
+
+
+
+.ordered-list,
+%ordered-list{
+    list-style-type: decimal;
+}
+
+.unordered-list,
+%unordered-list{
+    list-style-type: disc;
+}
+
+ol{
+    @extend %ordered-list;
+}
+
+ul{
+    @extend %unordered-list;
+}

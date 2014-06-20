@@ -1,0 +1,50 @@
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+h1, h2{
+ line-height: 1.1;
+} 
+
+h3, h4, h5 h6{
+    line-height: 1.3;
+}
+
+/**
+ * Headings 1–6, with corresponding classes for double-
+ * stranded heading hierarchy
+ */
+h1,
+.h1,
+%h1 {
+    @include rem(font-size, $heading-size-1);
+}
+
+h2,
+.h2,
+%h2 {
+    @include rem(font-size, $heading-size-2);
+}
+
+h3,
+.h3,
+%h3 {
+    @include rem(font-size, $heading-size-3);
+}
+
+h4,
+.h4,
+%h4 {
+    @include rem(font-size, $heading-size-4);
+}
+
+h5,
+.h5,
+%h5 {
+    @include rem(font-size, $heading-size-5);
+}
+
+h6,
+.h6,
+%h6 {
+    @include rem(font-size, $heading-size-6);
+}

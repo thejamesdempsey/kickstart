@@ -57,12 +57,8 @@ module.exports = function(grunt) {
 
   // Default Task is basically a rebuild
   grunt.registerTask('default', ['concat', 'uglify', 'sass', 'imagemin', 'autoprefixer', 'cssmin', 'clean']);
-  grunt.registerTask('--watch', ['concat', 'uglify', 'sass', 'imagemin', 'autoprefixer', 'cssmin', 'clean', 'watch']);
-  grunt.registerTask('--styles', ['sass', 'autoprefixer', 'cssmin', 'clean']);
-  grunt.registerTask('--scripts', ['concat', 'uglify', 'clean']);
+  grunt.registerTask('serve', ['concat', 'uglify', 'sass', 'imagemin', 'autoprefixer', 'cssmin', 'clean', 'watch']);
+  grunt.registerTask('styles', ['sass', 'autoprefixer', 'cssmin', 'clean']);
+  grunt.registerTask('scripts', ['concat', 'uglify', 'clean']);
   
-
-  // Moved to the tasks folder:
-  // grunt.registerTask('dev', ['connect', 'watch']);
-
 };
