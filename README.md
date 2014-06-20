@@ -1,18 +1,25 @@
 Kickstart
 =========
 
-Automated starting place for front-end builds
+My automated starting place for front-end builds.
 
-To get started install Node by clicking the big install button [on the Node website](http://nodejs.org/)
+###Install via command line(recommended):
+	
+	git clone --recursive git@github.com:thejamesdempsey/kickstart.git your-project-folder 
+	cd your-project-folder
+	
+###Install via zip:
 
-Once you have done that run the following commands:
+Firstly you need to download the kickstart zip and unpack it to a location of your choosing.
+
+### Getting Started
+
+Once you installed the project, run the following commands:
 
 	npm install
 	bower install
 
-
-
-Build Project:
+The following commands will allow you to automate the build process of the project:
 
 	## Build the overall project:
 	grunt
