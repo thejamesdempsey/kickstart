@@ -3,7 +3,11 @@ Kickstart
 
 Automated starting place for front-end builds
 
-npm install
+To get started install Node by clicking the big install button [on the Node website](http://nodejs.org/)
+
+Once you have done that run the following command:
+
+	npm install
 
 
 Build Project:
@@ -17,6 +21,6 @@ Build Project:
 	## Build only the stylesheets:
 	grunt -styles
 	
-	## Build only the javascript:
+	## Build only the javascripts:
 	grunt -scripts
  
