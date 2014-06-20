@@ -25,11 +25,11 @@ The following commands will allow you to automate the build process of the proje
 	grunt
 
 	## Build continuously:
-	grunt -watch
+	grunt --watch
 	
 	## Build only the stylesheets:
-	grunt -styles
+	grunt --styles
 	
 	## Build only the javascripts:
-	grunt -scripts
+	grunt --scripts
  
