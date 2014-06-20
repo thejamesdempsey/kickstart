@@ -3,7 +3,6 @@ dist
 .tmp
 .sass-cache
 bower_components
-.gitattributes
-.jshintrc
-.npmignore
-.travis.yml
+node_modules
+css/
+js/build/
